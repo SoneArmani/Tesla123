@@ -1,0 +1,14 @@
+#include <stdio.h>
+char Znak; 
+
+main()
+
+{
+printf ("upisite bilo koji znak:\n");
+scanf ("%C" ,&Znak);
+if (Znak >= 'a' && Znak <='z');
+printf ("Upisani znak je malo slovo\n");
+else if (Znak >= 'A' && Znak <= 'Z');
+printf ("Upisani znak je veliko slovo\n");
+else printf ("Upisani znak je cifra ili specijalni znak\n");
+}
